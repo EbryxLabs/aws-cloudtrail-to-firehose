@@ -16,4 +16,4 @@
     lambda_basic_execution access policy as well as permission to put_record_batch for firehose stream
 
 # Flow
-	CloudTrail -> Cloudwatch Logs -> Stream to AWS Lambda (Subscripion Filter) -> Firehose Stream -> AWS ES Cluster
+	CloudTrail -> Cloudwatch Log Group -> Stream to AWS Lambda (Subscripion Filter) -> Firehose Stream -> AWS ES Cluster
